@@ -3,3 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  margin: 80px;
+  text-align: center;
+  padding: 40px;
+  width: 800px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 6px;
+}
+.switch {
+  margin: auto;
+  max-width: 44%;
+  color: #007bff;
+  cursor: pointer;
+}
+.switch:hover {
+  text-decoration: underline;
+}
+.text-danger {
+  font-size: 14px;
+}
