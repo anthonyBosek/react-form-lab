@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+// import { toast } from "react-toastify";
+// import "react-toastify/dist/ReactToastify.css";
 import Logo from "../assets/Logo.jpeg";
 import useValidate from "../handlers/useValidate";
 
@@ -21,16 +21,16 @@ const Form = ({ handleAuth }) => {
 
     const isValid = validate();
     if (!isValid) {
-      toast.error("Please fill in all fields correctly.", {
-        position: toast.POSITION.TOP_CENTER,
-      });
+      // toast.error("Please fill in all fields correctly.", {
+      //   position: toast.POSITION.TOP_CENTER,
+      // });
       return;
     }
 
     handleAuth(inputValues);
-    toast.success("Success!", {
-      position: toast.POSITION.TOP_CENTER,
-    });
+    // toast.success("Success!", {
+    //   position: toast.POSITION.TOP_CENTER,
+    // });
 
     setInputValues({});
   };
