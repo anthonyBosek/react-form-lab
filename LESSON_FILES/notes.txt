@@ -1,0 +1,21 @@
+controlled input
+useState hook
+onChange event
+onSubmit event
+.preventDefault()
+event object
+
+basic React directory structure
+npm run ???
+
+
+onSubmit event
+handleSubmit function
+event.preventDefault()
+event object
+
+conditional rendering
+dir structure
+components
+views
+props / prop drilling
